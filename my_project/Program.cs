@@ -17,8 +17,11 @@ namespace my_project
         public string favorite_song_id;
         public long listening_number;
 
+        public Listener()
+        {
 
-        public int Dummy { get; set; }
+        }
+
         public Listener(string listenerID, string songID, long listeningNumber)
         {
             listener_id = listenerID;
